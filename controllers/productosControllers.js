@@ -1,3 +1,5 @@
+
+// controllers\productosControllers.js
 const Product = require("../models/Products");
 
 module.exports = {

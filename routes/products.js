@@ -1,5 +1,8 @@
+
+// routes\products.js
 const router = require("express").Router();
 const productosControllers = require("../controllers/productosControllers");
+
 
 router.get("/", productosControllers.getAllProduct);
 router.get("/:id", productosControllers.getProduct);
